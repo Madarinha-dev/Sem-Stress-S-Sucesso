@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "oloko";
+    /* src: url(/static/Fonte/magic_school/MagicSchoolOne.ttf) format("truetype"); */
+    src: url(font/post-no-bills/postnobillscolombo-regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #0D3259;
+}
+
+
+#sss {
+    color: #2486F0;
+    font-size: 60px;
+    margin-left: 125px;
+    font-family: "oloko";
+}
+
+#sem-stress {
+    color: white;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: -15px;
+    font-family: "oloko";
+}
+
+#entrar {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    border-radius: 50px;
+    /* border-color: #0d325900; */
+    background-color: #246ab556;
+    color: white;
+    text-decoration: none;
+}
+
+
+#entrar:hover {
+    background-color: #4394ebe3;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    transition: 1s;
+    
+}
+
+#main {
+    text-align: center;
+    padding-top: 250px;
+}
+
+#principal {
+    margin-bottom: 230px;
+}
+
+#infinito01 {
+    position: absolute;
+    margin-left: -180px;
+    margin-top: -25px;
+    transform: rotate(40deg);
+    width: 150px;
+}
+
+#infinito02 {
+    position: absolute;
+    margin-left: -180px;
+    margin-top: -25px;
+    transform: rotate(1deg);
+    width: 150px;
+}
+
+#infinito03 { 
+    position: absolute;
+    transform: rotate(40deg);
+    width: 50px;
+    margin-left: 20px;
+
+}
+
+#infinito04 {
+    position: absolute;
+    transform: rotate(1deg);
+    width: 50px;
+    margin-left: 20px;
+}
+
+#ssss02 {
+    color: #2486F0;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-family: "oloko";
+}
+
+#sem_stress02 {
+    color: white;
+    margin-left: 80px;
+    font-family: "oloko";
+}
+
+#azul {
+    background-color: #2486F0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 15px;
+
+    font-family: "oloko";
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+#programe-seu-dia {
+    /* background-color: red; */
+    margin: 30px;
+}
+
+#titulo{
+    background-color: #4b9cf3;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #2486F0;
+    width: 70dvw;
+}
+
+#data {
+    background-color: #4b9cf3;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #2486F0;
+    width: 70dvw;
+    margin-top: 10px;
+}
+
+#atividades_para_o_dia {
+    background-color: #4b9cf3;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #2486F0;
+    width: 70dvw;
+    margin-top: 10px;
+}
+
+#salvar {
+    background-color: #0D3259;
+    color: white;
+    border-radius: 30px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+    background-color: #0D3259;
+}
+
+li:hover {
+    background-color: #0d32596e;
+    transition: 0.5s;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#retornar {
+    text-decoration: none;
+}
+
+div#azul {
+    align-items: center;
+}
+
+img#img-x {
+    width: 40px; 
+    border-radius: 50%;
+}
